@@ -15,6 +15,12 @@ namespace TiposVarios
             Console.WriteLine(b);
             Console.WriteLine(c);
             Console.WriteLine(d);
+
+            char copySym = '\u00A9';
+            char weird = '\u07D0';
+
+            Console.WriteLine(copySym);
+            Console.WriteLine(weird);
         }
     }
 }
