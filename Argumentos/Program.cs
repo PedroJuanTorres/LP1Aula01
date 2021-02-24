@@ -13,7 +13,7 @@ namespace Argumentos
         /// <param name="args">The command-line arguments.</param>
         static void Main(string[] args)
         {
-            for (int i = 0; i < args.Length; i++) ;
+            for (int i = 0; i < args.Length; i++);
             {
                 // This will write argument in console
                 Console.WriteLine(args[i]);
