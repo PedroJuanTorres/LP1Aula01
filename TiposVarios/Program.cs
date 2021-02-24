@@ -21,6 +21,16 @@ namespace TiposVarios
 
             Console.WriteLine(copySym);
             Console.WriteLine(weird);
+
+            float f = 3.455f;
+            double g = 1.2e2;
+            double h = 444.4;
+            decimal i = 4981.33m;
+
+            Console.WriteLine(f);
+            Console.WriteLine(g);
+            Console.WriteLine(h);
+            Console.WriteLine(i);
         }
     }
 }
