@@ -9,6 +9,7 @@ namespace VariasStrings
         {
             int x = 123;
             int y = -123;
+            double z = 0.44;
 
             Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine("Hello World!");
@@ -29,6 +30,16 @@ namespace VariasStrings
             myStr = string.Format("Y is {1}, X is {0}", x, y);
             Console.WriteLine(myStr);
             Console.WriteLine("Y is {1}, X is {0}", x, y);
+
+            Console.WriteLine(@"\Verbati\m \com x = {0}", x);
+
+            Console.WriteLine("Valor é {0, -10:f3}!!", 1.34534);
+
+            Console.WriteLine($"x em hex = {x:X}");
+
+            Console.WriteLine($"z = {z}");
+            Console.WriteLine($"z = {z:p}");
+            Console.WriteLine($"z = {z:c}");
 
         }
     }
